@@ -1,0 +1,130 @@
+body {
+    color: #DDDDDD;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    color: #364F6B;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #364F6B;
+    font-size: 2.4rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3FC1C9;
+}
+p {
+    color: black;
+    line-height: 2;
+}
+hr {
+    border-color: #BBBBBB;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 5%;
+    height: 0;
+    margin: 100px auto;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+}
+.web {
+    font-style: italic;
+    text-decoration: underline;
+}
+.top-container {
+    background-color: #EEEEEE;
+    position: relative;
+    padding-top: 100px;
+}
+.profile {
+    padding-top: 50px;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.bottom-container {
+    background-color: #364F6B;
+    padding: 50px 0 20px;
+}
+.contact-msg {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.footer-link {
+    color: #3FC1C9;
+    margin: 50px auto 100px ;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #95E1D3;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 70px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.guitar-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #3FC1C9;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #0059A0 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ 
+ .btn:hover {
+    background: #FC5185;
+    border: solid #FC5185 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
